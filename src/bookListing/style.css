@@ -1,0 +1,16 @@
+.bookDescription {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 16px;     /* fallback */
+    max-height: 30%;      /* fallback */
+    -webkit-line-clamp: 15; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    padding-left: 2%;
+ }
+
+ .bookTitle{
+    padding-left: 22%;
+    padding-bottom: 2px
+ }
+
